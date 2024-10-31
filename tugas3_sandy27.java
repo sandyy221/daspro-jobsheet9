@@ -1,11 +1,10 @@
 import java.util.Scanner;
-
 public class tugas3_sandy27 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] menu = {"Nasi Goreng", "Mie Goreng", "Roti Bakar", "Kentang Goreng", "Teh Tarik", "Cappucino", "Chocolate Ice"};
-
         System.out.println("Menu Makanan:");
+
         for (int i = 0; i < menu.length; i++) {
             System.out.println((i + 1) + ". " + menu[i]);
         }
