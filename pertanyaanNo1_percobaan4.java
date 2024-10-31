@@ -24,8 +24,8 @@ public class pertanyaanNo1_percobaan4 {
             }
         }
         if (!ditemukan) {
-            System.out.println("Nilai " + nilaiDicari + " tidak ditemukan.");
+            System.out.println("Nilai yang dicari tidak ditemukan.");
         }
-        
+
     }
 }
