@@ -10,7 +10,7 @@ public class ArrayRataNilai27 {
             System.out.print("Masukan nilai mahasiswa ke- " +(i + 1) +":" );
             nilaiMhs[i] = sc.nextInt();
         }
-        for (int i =0; i < nilaiMhs.length; i++) {
+        for (int i =0; i <nilaiMhs.length; i++) {
             total+=nilaiMhs[i];
         }
         rata2 = total/nilaiMhs.length;
